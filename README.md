@@ -1,65 +1,28 @@
 
-# Шаблон репозиторію для виконання лабораторних робіт з дисципліни "Організація баз даних"
+# Система організації та управління опитуваннями експертів
 
-## Як використовувати
+## Тема
+Система організації та управління опитуваннями експертів.
 
-В цьому репозиторії знаходиться шаблон для виконання лабораторних робіт.
+## Автори
+- студент 2-го курсу, групи ІО-31 [Клімчук Артем](https://t.me/your_link)
+- студент 2-го курсу, групи ІО-31 [Вихляєв Михайло](https://t.me/your_link)
+- студент 2-го курсу, групи ІО-31 [Ісмаілов Ільяс](https://t.me/your_link)
+- студентка 2-го курсу, групи ІО-31 [Лещенко Ольга](https://t.me/your_link)
+- студент 2-го курсу, групи ІО-31 [Мукосій Богдан](https://t.me/your_link)
+- студентка 2-го курсу, групи ІО-31 [Тетерук Іванна](https://t.me/your_link)
 
-Для виконання лабораторних робіт необхідно зробити ```fork``` цього репозіторію, склонувати вже власний репозіторій та розміщувати документацію у відповідних діректоріях ```./docs```.
+## Керівник
 
-В цьому файлі необхідно вказати тему лабораторних робіт (назву проекту). Коротку загальну характеристику
-проекту, контактні дані виконавця, посилання на репо співвиконавців (за необхідністю).
+*доцент кафедри ОТ ФІОТ, к.т.н., доцент*<span padding-right:5em></span> **Андрій БОЛДАК** 
 
+[НТУУ "КИЇВСЬКИЙ ПОЛІТЕХНІЧНИЙ ІНСТИТУТ імені ІГОРЯ СІКОРСЬКОГО](https://kpi.ua/)
 
-Шаблон публікування підготовлено з використанням [VuePress](https://vuepress.vuejs.org/), та стартера 
-[FriendlyUser/vuepress-theme-cool-starter](https://github.com/FriendlyUser/vuepress-theme-cool-starter).
+[Факультет інформатики та обчислювальної техніки](https://fiot.kpi.ua/)
 
-Щоб опублікувати проект у Github Pages, налаштовуємо Github Pages (гілка ```gh-pages```), змінюємо файл ```./publish.sh```
+[Кафедра обчислювальної техніки](https://comsys.kpi.ua/)
 
-```sh
-
-#!/usr/bin/env sh
-
-# abort on errors
-set -e
-
-# build
-npm run docs:build
-
-# navigate into the build output directory
-cd docs/.vuepress/dist
-
-# if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
-
-git init
-git add -A
-git commit -m 'deploy'
-
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:boldak/<USERNAME>.github.io.git master
-
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/<USERNAME>/dis-edu.git master:gh-pages
-
-cd -
-
-```
-
-Потім запускаємо
-
-```bash
-    npm run publish
-```
-
-Для відлагодження документації в локальному режимі запускаємо
-
-```bash
-    npm run docs:dev
-```
-
-Доступ до локально опублікованої версії [http://localhost:3030](http://localhost:3030)
-
+Київ
 
 ## Додаткова інформація
 
